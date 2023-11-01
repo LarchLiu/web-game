@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/Build/dist.data.br",
+      "source": "/Build/:name.data.br",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "source": "/Build/dist.wasm.br",
+      "source": "/Build/:name.wasm.br",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "/Build/dist.loader.js",
+      "source": "/Build/:name.js",
       "headers": [
         {
           "key": "Content-Encoding",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "source": "/Build/dist.framework.js.br",
+      "source": "/Build/:name.js.br",
       "headers": [
         {
           "key": "Content-Encoding",
